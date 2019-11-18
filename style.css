@@ -1,0 +1,537 @@
+
+#link_logo{
+padding: 0px;
+width: 70%;
+margin-left:-10px;
+padding-top:10px;
+}
+
+.navbar-header{
+width:320px;
+}
+
+#id_facebook>i{
+margin-left:20px;
+margin-top:20px;
+}
+
+.navbar-nav{
+margin-right:15px;
+}
+
+
+
+
+footer{
+display: none;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #88d7e0;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffa942;
+}
+
+@media screen and (max-width: 919px)
+{
+/*
+.container{
+width:100%;
+padding:0px;
+}
+
+.lamina{
+width:100%;
+}
+
+.lamina>img{
+padding-top:1px;
+margin-right:-30px;
+
+}
+*/
+#link_logo{
+padding: 0px;
+width: 70%;
+margin-left:10px;
+padding-top:10px;
+}
+
+}
+
+@media screen and (min-width: 920px) {
+/*	
+.container{
+width:100%;
+padding:0px;
+}
+
+.lamina{width:100%;}
+
+.lamina>img{
+width:100%;
+	height: 720px;
+}
+*/	
+#link_logo{
+padding: 0px;
+margin-left:5px;
+margin-top:6px;
+}
+
+.navbar-header{
+width:310px;
+}
+
+}
+
+
+
+/****/
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+ 
+.animado { 
+	
+    animation-duration: 4s;
+	
+}
+
+
+/*
+#seccion_experiencia:hover >div>div>div> .animado { 
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+.row:hover>div>.animado { 
+	-webkit-animation: shake 0s;
+    animation: shake 0s;
+    animation-duration: 0s;
+	animation-iteration-count: 1;
+}
+
+
+
+.animado:hover { 
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+*/
+
+/******************* movil **********************/
+
+@media only screen and (max-width: 500px) {
+	
+#conformada_movil{
+	display: block !important;
+}
+
+.compu{
+		display: none;
+	}
+	
+/******************* DESCRIPCION **********************/
+#seccion_descripcion{
+height: 625px !important;
+text-align: center;
+padding-top: 25%;
+}
+#seccion_descripcion>div>div>div>img{
+max-width: 90%;
+}
+/******************* CONFORMADA **********************/
+
+
+#seccion_conformada{
+padding-top: 20% !important;
+height: 100%;
+}
+ 
+/**************** EXPERIENCIA **********************/
+#seccion_experiencia{
+height:100%;
+}
+/**************** CONSTRUIR **********************/
+#seccion_construir{
+height:100%;
+padding-top: 14px !important;
+}
+
+
+
+/**************** MARCA **********************/
+
+#seccion_marca{
+height: 639px;
+padding-top: 15%;
+}
+/**************** ESTRATEGIA **********************/
+#seccion_estrategia{
+height:100%;
+}
+/**************** SERVICIOS **********************/
+#seccion_servicios{
+height: 100%;
+}
+.servicios_palabra{
+padding-top: 28%!important;
+}
+#seccion_servicios>div>div>div{
+margin-bottom: 40%;
+}
+
+/**************** PLAN **********************/
+#seccion_plan{
+height: 639px;
+padding-top: 36%;
+}
+
+/**************** EXTRAEMOS EXPLORAMOS ENTREGAMOS **********************/
+#seccion_extraemos,#seccion_exploramos,#seccion_entregamos{
+height: 639px;
+padding-top: 30% !important;
+width:100%;
+}
+	
+.palabra_entregamos{
+	max-width: 90% !important;
+	padding-top: 32.5% !important;
+	
+}
+
+}
+
+
+
+
+
+
+/**@media only screen and (max-width: 600px) and (min-width: 400px)**/
+
+
+@media only screen and (max-width: 600px) and (min-width: 501px){
+/******************* DESCRIPCION **********************/
+#seccion_descripcion{
+height: 655px !important;
+text-align: center;
+padding-top: 15%;
+}
+#seccion_descripcion>div>div>div>img{
+max-width: 90%;
+}
+/******************* CONFORMADA **********************/
+
+
+#seccion_conformada{
+height:100%;
+}
+ 
+/**************** EXPERIENCIA **********************/
+#seccion_experiencia{
+height:100%;
+}
+/**************** CONSTRUIR **********************/
+#seccion_construir{
+height:100%;
+padding-top: 14px !important;
+}
+
+
+
+/**************** MARCA **********************/
+
+#seccion_marca{
+height: 650px;
+padding-top: 10%;
+}
+/**************** ESTRATEGIA **********************/
+#seccion_estrategia{
+height:100%;
+}
+/**************** SERVICIOS **********************/
+#seccion_servicios{
+height: 100%;
+}
+#seccion_servicios>div>div>div{
+margin-bottom: 32%;
+}
+
+/**************** PLAN **********************/
+#seccion_plan{
+height: 650px;
+padding-top: 22%;
+}
+
+/**************** EXTRAEMOS EXPLORAMOS ENTREGAMOS **********************/
+#seccion_extraemos,#seccion_exploramos,#seccion_entregamos{
+height: 650px;
+padding-top: 24% !important;
+}
+
+}
+
+
+/*
+
+* */
+
+
+/******************* **********************/
+.parallax {  
+	height:630px; 
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+ 
+.contenido-parallax { 
+	margin:0 auto;
+	color:#FFF;
+	padding-bottom:35px;
+}
+
+#conformada_movil{
+	display:none;
+}
+
+/******************* HOME **********************/
+
+#seccion_home{
+	/*margin-top: 25px;*/
+	background-image:url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo01.jpg');
+    height: 610px !important;
+    background-attachment: initial;
+    background-position: center top;
+    padding-top: 137px;
+	text-align:center;
+}
+
+
+/******************* DESCRIPCION **********************/
+
+#seccion_descripcion{
+	background-image:url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo02.jpg');
+	height: 633px;
+	text-align:center;
+}
+
+
+#seccion_descripcion img{
+	margin-top: 100px;
+	
+}
+
+/******************* CONFORMADA **********************/
+
+#seccion_conformada{
+	background-image:url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo03.jpg') !important;
+	
+	text-align:center;
+	padding-top: 15px;
+	
+}
+
+ #seccion_conformada img{
+	padding-bottom: 5px; 
+	
+}
+
+/*
+
+*/
+
+/******************* EXPERIENCIA **********************/
+
+#seccion_experiencia{
+	background-image:url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo04.jpg') !important;
+	
+}
+
+#seccion_experiencia img{
+	margin-top: 25px; 
+	
+}
+
+/******************* CONSTRUIR **********************/
+
+#seccion_construir{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo05.jpg');
+	padding-top: 70px;
+	text-align: center;
+}
+
+/******************* MARCA **********************/
+
+#seccion_marca{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo06.jpg');
+	text-align: center;
+}
+.o_derecha{
+	animation-delay: 3s;
+}
+.olita{
+	animation-duration: 6s;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+#seccion_marca img{
+	margin-top: 75px; 
+	margin-bottom: 50px;
+	
+}
+
+/******************* ESTRATEGIA **********************/
+
+#seccion_estrategia{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo07.jpg');
+	text-align: center;
+}
+
+.gato{
+	margin-top: 14%;
+}
+
+/******************* SERVICIOS **********************/
+
+#seccion_servicios{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo08.jpg');
+	text-align: center;
+}
+
+.servicios_animacion{
+	z-index:1;
+	position: absolute;
+}
+.servicios_palabra{
+	
+	padding-top: 20%;
+	z-index: 2;
+	right: 12%;
+}
+
+.texto img{
+	height: 580px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.servicio{
+	margin-top: 7.5%;
+}
+
+/******************* PLAN **********************/
+
+#seccion_plan{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo09.jpg');
+	text-align: center;
+}
+
+/******************* FIN **********************/
+
+#seccion_fin{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo10.jpg');
+}
+
+#seccion_fin img{
+	margin-top: 200px; 
+	
+}
+
+/******************* EXTRAEMOS **********************/
+
+#seccion_extraemos{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo11.jpg');
+	padding-top: 10%;
+	text-align: center;
+}
+
+
+
+.extraemos_extraer{
+	z-index:1;
+	position: absolute;
+}
+.extraemos_palabra{
+	padding-top: 9px;
+	z-index: 2;
+	
+}
+
+/******************* EXPLORAMOS **********************/
+
+#seccion_exploramos{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo12.jpg');
+	text-align:center;
+	padding-top: 10%;
+}
+
+#seccion_exploramos img{
+	margin-top: 10px; 
+	
+}
+
+/******************* ENTREGAMOS **********************/
+
+#seccion_entregamos{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo13.jpg');
+	text-align: center;
+	padding-top: 10%;
+}
+.texto_entregamos{
+	z-index:1;
+}
+.palabra_entregamos{
+	position: absolute;
+	padding-top: 27%;
+	z-index: 2;
+}
+
+/******************* FOOTER **********************/
+
+#seccion_footer{
+	background-image: url('http://www.pulpodigital.com/wp-content/uploads/2017/11/DiapositivasPulpo_Fondo14.jpg');
+	text-align: center;
+	padding-top: 50px;
+}
+
+.etiqueta{
+	text-align: left;
+	margin-bottom: 0px;
+}
+.input{
+	opacity: 0.5 !important;
+	width:100%;
+	margin-bottom: 3px;
+	color: black;
+}
+form>h1,p{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.btn_pulpo{
+	margin-top: 5%;
+	background-color: #0c9ee6 !important;
+	border-color: #0c9ee6;
+	height: 36px;
+    width: 84px;
+    font-size: 16px;
+}
+
+#seccion_footer img{
+	margin-top: 70px;
+}
+
+#seccion_footer>div{
+	padding-bottom: 0px;
+}
