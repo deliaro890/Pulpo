@@ -1,13 +1,13 @@
 var bandera =0
        
-var boton = document.getElementById('menu')
-var boton2 = document.getElementById('opcion1')
 var boton3 = document.getElementById('opcion2')
 var boton4 = document.getElementById('opcion3')
 var boton5 = document.getElementById('opcion4')
 var boton6 = document.getElementById('opcion5')
 
-boton.addEventListener('click',function(){
+
+var burger = document.getElementById('menu');
+burger.addEventListener('click',function(){
     document.getElementById('lista').style.display='block'
     bandera = bandera +1
     console.log(bandera)
@@ -18,13 +18,6 @@ boton.addEventListener('click',function(){
 
 })
 
-
-
-boton2.addEventListener('click',function(){
-    document.getElementById('lista').style.display='none'
-    bandera=bandera+1
-
-})
 boton3.addEventListener('click',function(){
     document.getElementById('lista').style.display='none'
     bandera=bandera+1

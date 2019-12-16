@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Pulpo Digital – Sitio Oficial Pulpo Digital</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
@@ -20,31 +20,37 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <button class="nav-brand">
+                <a href="#pulpo"></a>
+            </button>
+            <button class="nav-burger" id='menu'></button>
+            <ul>
+                <li>
+                    <a href="#services">Servicio</a>
+                </li>
+                <li>
+                    <a href="#work">Que hacemos</a>
+                </li>
+                <li>
+                    <a href="#we">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
 
+        </nav>
+        <div id="lista">
+            <div class="opciones" id="opcion2"><a href="#we">Quienes Somos</a></div>
+            <div class="opciones" id="opcion3"><a href="#work">Que hacemos</a></div>
+            <div class="opciones" id="opcion4"><a href="#services">Servicio</a></div>
+            <div class="opciones" id="opcion5"><a href="#contact">Contacto</a></div>                
+    </div>
+    </header>
     <div id='wrapper'>
-        <div id="uno">
-            <div id="uno_1">
-                <div id='logo'>
-                </div>
-                <div id='menu'>
-                </div>
-            </div>
-
-            <div id="lista">
-
-                    <div class="opciones" id="opcion1"><a href="#">Inicio</a></div>
-                    <div class="opciones" id="opcion2"><a href="#tres">Quienes Somos</a></div>
-                    <div class="opciones" id="opcion3"><a href="#seis">Que hacemos</a></div>
-                    <div class="opciones" id="opcion4"><a href="#diez">Servicio</a></div>
-                    <div class="opciones" id="opcion5"><a href="#diecisiete">Contacto</a></div>                
-            </div>
-        </div>
-        
-        <div id="dos">
-
-            
-        </div>
-      
+        <div id="pulpo"></div>
         <div id="tres">
             <img class="olas wow animated shake infinite" data-wow-duration="4s" data-wow-iteration="2" src="img/olas.png">
             <p>ES UNA AGENCIA</p>
@@ -267,7 +273,7 @@
     
     </div>
 
-    <div id="desktop">
+    <!-- <div id="desktop">
 
         <div id="menuD">
             <div id="logoD">
@@ -300,7 +306,7 @@
         <div id="contactoD"></div>
         
 
-    </div>
+    </div> -->
 
 
 
