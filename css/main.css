@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
@@ -8,7 +8,7 @@ a{
     color: white;    
 }
 
-body{
+body, p{
     padding: 0;
     margin: 0;  
 }
@@ -81,6 +81,60 @@ nav ul li{
     background-position: center;
 }
 
+#we {
+    padding-bottom: 20px;
+    background-image: url('../imgDesktop/fondo2.jpg');
+    font-family: 'Oswald', sans-serif;
+    color:#a1d3d4;
+    font-size: 60px;
+    text-align: center;
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#we p {
+    margin: 5px 0;
+}
+
+#experts
+{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+}
+.experts-title {
+    font-size: 30px;
+    border-bottom: 2px solid #f6c25f;
+    max-width: 244px;
+    margin: auto;
+}
+
+.experts-subtitle{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color:#f6c25f;
+}
+.experts-parts {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+}
+.experts-parts p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+.experts-parts div{
+    margin: 10px;
+}
 
 /* ----------- VIEJO ----------- */
 
@@ -156,22 +210,6 @@ nav ul li{
     /*background-size: 360px 620px;*/
 }
 
-#tres
-{
-    padding-bottom: 20px;
-    background-color: #3e67ab;
-    font-family: 'Oswald', sans-serif;
-    color:#a1d3d4;
-    font-size: 60px;
-    text-align: center;
-    
-    
-}
-
-#tres p{
-    margin: 0px;
-}
-
 #digital{
     font-family: 'Great Vibes', cursive;
     color: azure;
@@ -181,31 +219,11 @@ nav ul li{
     width: 280px;
 }
 
-
-
-#cuatro
-{
-    grid-row: 4;
-    background-color: red;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    
-    padding: 30px;
-}
-#cuatro p{
-    margin: 0px;
-}
-#expertos{
-    font-family: 'Great Vibes', cursive;
-    color:#f6c25f
-}
-.circulos{
+/* .circulos{
     width: 100px;
     padding: 20px;
     padding-bottom: 0px;
-}
+} */
 .en{
 
     font-family: 'Oswald', sans-serif;
@@ -716,6 +734,26 @@ label{
     }
     #pulpo {
         background-image: url('../imgDesktop/fondo1.jpg');
+    }
+    
+    .experts-title {
+        font-size: 50px;
+        max-width: 536px;
+    }
+    .experts-subtitle{
+        font-size: 100px;
+    }
+    .experts-parts {
+        max-width: 690px;
+    }
+    .experts-parts div{
+        margin: 15px 25px;
+    }
+    .experts-parts .circulos{
+        width: 150px;
+    }
+    .experts-parts p{
+        font-size: 35px;
     }
 
     /* VIEJO */
