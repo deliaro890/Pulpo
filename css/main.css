@@ -136,6 +136,70 @@ nav ul li{
     margin: 10px;
 }
 
+#experience {
+    background-image: url('../imgDesktop/fondo4.jpg');
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.experience-title, .experience-develop, .experience-design, .experience-move, .experience-platforms {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center; 
+}
+.experience-title {
+    background: #42b6b3;
+    color: white;
+    width: 100%;
+}
+.experience-develop {
+    color: #3f4a68;
+    background: white;
+}
+.experience-design {
+    color: white;
+    background: #599fab;
+}
+.experience-move {
+    color: white;
+    background: #599fab;
+}
+.experience-platforms {
+    color: #3f4a68;
+    background: white;
+}
+.experience-image {
+    width: 100%;
+}
+.experience-image  img {
+    width: 100%;
+    height: auto;
+}
+#innovation {
+    background-image: url('../img/fondo6.jpg');
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inn-item {
+    display: flex;
+    justify-content: space-around;
+}
+.inn-subtitle {
+    font-family: 'Great Vibes', cursive;
+}
+
 /* ----------- VIEJO ----------- */
 
 
@@ -755,8 +819,70 @@ label{
     .experts-parts p{
         font-size: 35px;
     }
+    #experience {
+        grid-template-rows: 50% 50%;
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        min-height: 382px;
+        padding: 5%;
+    }
+    .experience-title {
+        grid-column-end: span 2;
+        height: 100%;
+    }
+    .experience-develop, .experience-design {
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+    }
+    .experience-move {
+        height: 100%;
+        width: 100%;
+    }
+    .experience-platforms {
+        height: 100%;
+        width: 100%;
+        grid-column-end: 4;
+        grid-row-start: 1;
+    }
+    .experience-image {
+        grid-column-end: span 2;
+    }
+    .experience-image img {
+        max-height: 100%;
+    }
+    #innovation {
+        display: flex;
+        font-size: 35px;
+        justify-content: space-around;
+        min-height: 408px;
+        padding-top: 10%;
+        padding-bottom: 2%;
+    }
 
-    /* VIEJO */
+    #innovation section {
+        width: 50%;
+    }
+    #innovation section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .inn-item-bottom {
+        margin-top: 50px
+    }
+    .inn-text {
+        margin-top: 29px;
+        line-height: 67px;
+    }
+    .inn-title {
+        font-size: 60px;
+    }
+    .inn-subtitle {
+        font-size: 90px;
+    }
+
+    /* ----------------------- VIEJO -----------------------*/
     /* #wrapper{
         display: none;
     } */
