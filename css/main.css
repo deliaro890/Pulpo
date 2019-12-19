@@ -190,15 +190,36 @@ nav ul li{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 10%;
 }
 
+#innovation img{
+    width: 90%;
+}
+#innovation .inn-mob-bottom {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#innovation .inn-mob-up {
+    margin-top: -60px;
+}
 .inn-item {
     display: flex;
     justify-content: space-around;
 }
-.inn-subtitle {
-    font-family: 'Great Vibes', cursive;
-}
+    .inn-text {
+        margin-top: 50px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .inn-title {
+        font-size: 35px;
+    }
+    .inn-subtitle {
+         font-family: 'Great Vibes', cursive;
+        font-size: 65px;
+    }
 
 /* ----------- VIEJO ----------- */
 
@@ -859,7 +880,18 @@ label{
         padding-top: 10%;
         padding-bottom: 2%;
     }
-
+    #innovation .inn-mob-bottom {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #innovation .inn-mob-up {
+        margin-top: 0px;
+    }
+    
+    #innovation img{
+        width: 100%;
+        max-width: 142px;
+    }
     #innovation section {
         width: 50%;
     }
@@ -874,6 +906,7 @@ label{
     .inn-text {
         margin-top: 29px;
         line-height: 67px;
+        text-align: left;
     }
     .inn-title {
         font-size: 60px;
